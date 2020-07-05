@@ -1,0 +1,27 @@
+.App {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(#000, 0.4), rgba(#000, 0.4)),
+        url(./images/background3blurred.jpg);
+    background-position: center;
+    background-size: cover;
+
+    .header {
+        padding: 1.5rem 0;
+        background-image: linear-gradient(rgba(#fff, 0.55), rgba(#fff, 0.55));
+        
+        &__icon {
+            width: max-content;
+            margin: 0 auto;
+            padding: 1rem;
+            border-radius: 50%;
+            box-shadow: 0 2px 3px rgba(#000, 0.2);
+            transition: all .2s;
+            cursor: pointer;
+            background-color: #eee;
+            
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+}

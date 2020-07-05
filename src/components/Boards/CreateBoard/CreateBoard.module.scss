@@ -1,0 +1,43 @@
+.CreateBoard {
+    max-width: 30rem;
+    min-width: 25rem;
+    padding: 3rem;
+    text-align: center;
+    background-color: #2ecc50;
+    color: #fff;
+    box-shadow: 0 2px 3px rgba(#000, 0.2);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .2s;
+    outline: none;
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        transition: all .2s;
+    }
+
+    .warning {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+        color: #d61717;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 3px 4px rgba(#000, 0.2);
+    }
+}

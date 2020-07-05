@@ -1,0 +1,17 @@
+.Input {
+    display: block;
+    width: 100%;
+    border: none;
+    margin: 1.5rem auto;
+    padding: 1rem 1.5rem;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 1.8rem;
+    box-shadow: 0 2px 3px rgba(#000, 0.2);
+    outline: none;
+    transition: all .2s;
+
+    &:focus {
+        background-color: #eeeeee;
+    }
+}

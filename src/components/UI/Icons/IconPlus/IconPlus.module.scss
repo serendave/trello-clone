@@ -1,0 +1,11 @@
+.IconPlus {
+    width: 3rem;
+    height: 3rem;
+    fill: #fff;
+    transition: all 0.1s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}

@@ -1,0 +1,21 @@
+.Homepage {
+    padding: 2rem;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    align-items: flex-start;
+    grid-gap: 2rem;
+    font-size: 2rem;
+
+    @media (max-width: 600px) {
+        & {
+            justify-items: center;
+        }
+    }
+
+    @media (max-width: 400px) {
+        & {
+            padding: 0;
+        }
+    }
+}

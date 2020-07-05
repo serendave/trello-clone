@@ -1,0 +1,29 @@
+.Board {
+    padding: 2rem;
+    font-size: 2rem;
+
+    .Lists {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 25rem);
+        align-items: flex-start;
+        justify-items: flex-start;
+        grid-gap: 2rem;
+    }
+}
+
+.BoardTitle {
+    width: 30rem;
+    padding: 3rem;
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    border-radius: 3px;
+    background-color: #eee;
+    font-weight: 700;
+    box-shadow: 0 2px 3px rgba(#000, 0.2);
+    transition: all 0.2s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
